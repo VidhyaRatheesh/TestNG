@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parameters">
+
+<test thread-count="5" name="parameters">  
+	<parameter name="URL" value="www.amazon.com"/>  
+     <classes>
+	<class name="parameters.para3"/>		
+    </classes>   
+  	</test> 
+ <test  name="pets"> 
+	 <parameter name="URL" value="www.yahoo.com"/>   
+     <classes>
+	 <class name="parameters.para2"/>		
+     </classes>   
+ </test> 
+
+ <test  name="Super">   
+     <classes>
+	 <class name="parameters.Super"/>		
+     </classes>
+</test><!-- Test -->
+</suite> <!-- Suite -->

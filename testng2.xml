@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Insurance">
+ <test name="Material Insurance">
+    <classes>
+	 <class name="testing.DemoTest1">
+<methods>
+		<include name="demo1"/>
+		</methods>
+  </class>
+
+	  <class name="testing.DemoTest2"/>        
+</classes>
+</test>
+
+<test name="Pet">    
+<classes>
+      <class name="testing.DemoTest3"/>
+    </classes>
+</test>> <!-- Test -->
+</suite> <!-- Suite -->

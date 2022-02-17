@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DataProvider">
+ <parameter name="URL" value="www.google.com"/> 
+ <parameter name="username" value="Tester"/> 
+ <parameter name="password" value="Test123"/>  
+  <test thread-count="5" name="TestDataProvider">
+    <classes>
+      <class name="dataProvider.home1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- DataProvider -->
